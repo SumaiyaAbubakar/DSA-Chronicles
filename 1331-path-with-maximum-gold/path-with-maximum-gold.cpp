@@ -23,7 +23,6 @@ public:
 
         int origGoldValue = grid[i][j];
         grid[i][j] = 0;
-        int maxGold = 0;
 
         int up = DFS(grid, i - 1, j);
         int down = DFS(grid, i + 1, j);
