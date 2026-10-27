@@ -38,7 +38,7 @@ public:
 
         if(abs(LEFT-RIGHT)>1)
         {
-            return false;;
+            return false;
         }
 
         if(isBalanced(root->left) && isBalanced(root->right))
